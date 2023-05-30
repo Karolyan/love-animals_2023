@@ -1,0 +1,1055 @@
+/* 375*667px*/
+@media screen and (max-width:575px) {
+
+    body{
+        margin:0;
+        background-color: #373633;
+    }
+    .wrap{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    /* --------------header-------------- */
+    header{
+        /* width:100%;
+        min-width:375px;
+        height:10vh;
+        min-height:75px;
+        background-color: #00000000;
+        position:fixed;
+        top: 0;
+        overflow:hidden; */
+        /* z-index:50; */
+        display: none;
+    }
+    nav{
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width:85%;
+        min-width: 350px;
+        height: 8vh;
+        min-height:55px;
+        margin:3% 7%;
+        position: fixed;
+        overflow: hidden;
+        position: relative; */
+        display: none;
+        /* outline: 1px solid red; */
+    }
+    .logo a{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        font-weight: 800;
+        font-family: sans-serif;
+        margin:auto;
+        position: absolute;
+        top: 25%;
+        left: 20%;
+    }
+    /* .menuicon{
+        width:2.8rem;
+        height: 2.8rem;
+        background-color: #000000;
+        border-radius: 100%;
+        display: block;
+        z-index: 100;
+        position:absolute;
+        top: 15%;
+        left: 5%; 
+    }
+    .menuicon img{
+        width: 1.2rem;
+        height: 1.2rem;
+        color: white;
+        position: absolute;
+        top: 13px;
+        left: 13px;
+    } */
+    /* .menuicon:hover,.searchicon:hover{
+        background-color: #535353;     
+    } */
+    /* .searchicon{
+        width:2.8rem;
+        height: 2.8rem;
+        background-color: #000000;
+        border-radius: 100%;
+        display: block;
+        z-index: 100;
+        position: absolute;
+        top: 15%; 
+        right:5%; 
+    }
+    .searchicon img{
+        width: 1.2rem;
+        height: 1.2rem;
+        color: white;
+        position: relative;
+        top: 13px;
+        left: 13px;
+    } */
+    .ulstyle{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        margin:auto; 
+        display: none;
+    }
+    .ularea1{
+        margin-left:0;
+        display: none; 
+    }
+    .ularea2{
+        margin-right: 0;
+        display: none;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.4rem;
+        margin:2vw;
+        display: none; 
+    }
+    .ulstyle{
+        transition: 0.4s;
+    }
+/* ----jqmenu----*/
+    /* .nav{
+        position: relative;
+}
+    .ulstyle ul{
+        display: flex;
+        flex-direction: column; 
+        position: relative;
+        background-color: #000000;
+        visibility: visible;
+        height: calc(100% - 10%);
+        opacity: 1;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    nav ul > li{
+        width: 150px;
+    }
+    .hide{
+        visibility:hidden;
+        opacity: 0;
+    } */
+
+  
+
+    /* dropdown w3school */
+    /* Style The Dropdown Button */
+
+    .dropbtn1 {
+        background-color: #000000;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 2.8rem;
+        height: 2.8rem;
+       
+  }
+    .dropbtn1 img{
+        width: 1.2rem;
+        height: 1.2rem;
+        color: white;
+        position: absolute;
+        top: 13px;
+        left: 13px;
+  }
+  /* The container <div> - needed to position the dropdown content */
+    .dropdown1 {
+        position: relative;
+        display: inline-block;
+        position:absolute;
+        top: 2%;
+        left: 5%; 
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: #000000;
+        min-width: 340px;
+        min-height: 580px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin: 5px 0;
+        border-radius: 15px;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content1 a {
+        color: rgb(255, 255, 255);
+        padding: 20px 16px;
+        margin: 30px 10px;
+        text-decoration: none;
+        display: block;
+        font-size: 1.2rem;
+
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content1 a:hover {
+        background-color: #727272;
+    }
+    
+    /* Show the dropdown menu on hover */
+    .dropdown1:hover .dropdown-content1 {
+        display: block;
+    }
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown1:hover .dropbtn1 {
+        background-color: #535353;
+  }
+
+
+
+  /* search */
+.dropbtn2 {
+background-color: #000000;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+border-radius: 50%;
+width: 2.8rem;
+height: 2.8rem;
+   
+}
+.dropbtn2 img{
+    width: 1.2rem;
+    height: 1.2rem;
+    color: white;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    position:absolute;
+    top: 2%;
+    right: 5%; 
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #000000;
+    min-width: 340px;
+    min-height: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 5px 0;
+    border-radius: 15px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+    color: rgb(255, 255, 255);
+    padding: 20px 16px;
+    margin: 30px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover {
+    background-color: #727272;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {
+    background-color: #535353;
+}
+
+
+
+    /* --------------section1-------------- */
+    .section1{
+        width: 100%;
+        height: 90vh;
+        background-color: #373633;
+        background: url(./images/45758046894_95b902c878_o.jpg)no-repeat 0 0 fixed;
+        background-size:cover;
+        overflow: hidden;
+        background-position-x: 80%;
+    }
+    .dot1{
+        width: 100%;
+
+    }
+    .dot1 ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 11vh 35vw;
+    
+    }
+    .dot1 li{
+        width: .5rem;
+        margin: 0 5px;
+
+    }
+    .dot1 .red1{
+        width: 1rem;
+
+    
+    }
+    .text1{
+        width:100%;
+        margin: 15vh 0;
+        padding: 0 10%;
+  
+    }
+    .text1 h2{
+        font-size: 2rem;
+        font-weight:500;
+        margin:2vh 0;
+    }
+    .text1 h4{
+        font-size: 1.4rem;
+        margin:2vh 0;
+        line-height: 2rem;
+    }
+    .text1 button{
+        width: 120px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: black;
+        color: white;
+        font-size: .9rem;
+        font-weight: 400;
+    }
+    .text1 h3{
+        font-size: 5rem;
+        font-weight: 800;
+        font-family: sans-serif;
+        color: white;
+        /* margin:20% 30%;
+        min-width: 182px;
+        min-height: 72px;
+        position: relative;
+        top: 20px;
+        left: -24px; */
+    }
+    /* --------------section2-------------- */
+    .section2{
+        width: 100%;
+        /* height: auto; */
+        background-color: #373633;      
+    }
+    /* card-adopt-------------- */
+    .card-adopt{
+        width: 70%;
+        /* height: auto; */
+        position: relative;
+        top:-13.5vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        overflow: hidden;
+    }
+    .box1{
+        /* width:8vw;
+        min-width:326px;
+        height:34vh;
+        min-height:290px; */
+        overflow: hidden;
+        margin:2.2% 0;
+        background-color:black;
+
+    }
+    .pic1{
+        width:100%;
+        height:230px;
+        overflow: hidden;
+        
+    }
+    .pic1 img{
+        width:100%;
+        /* height:auto; */
+        object-position:0 -150px;
+    }
+    .text2{
+        /* width:20vw;
+        height:20vh;
+        min-width: 325px;
+        min-height: 57px; */
+        /* background: black; */
+        text-align: center; 
+         
+    }
+    .text2h4{
+        font-size: 1.2rem;
+        color: #ffffff;
+        font-family: sans-serif;
+        font-weight: 800;
+        position: relative;
+        top: 12px;
+        left:-7px;
+        text-align: center;
+        margin: auto;
+        min-width: 110px;
+        min-height: 24px;
+        /* outline: 1px solid red; */
+    }
+    .text2 img{
+        width: .6rem;
+        position: relative;
+        top: -11px;
+        left: 55px;
+        /* outline: 1px solid red; */
+    }
+    .arrowleft1{
+        width: 4rem;
+        height: 4rem;
+        min-width: 55px;
+        min-height: 55px;
+        position: relative;
+        top:40%;
+        left:5%;
+        display: none;
+        
+        /* outline: 1px solid red; */
+    }
+    .arrowright1{
+        width: 4rem;
+        height: 4rem;
+        min-width: 55px;
+        min-height: 55px;
+        position: relative;
+        top: 17.5%;
+        left:91%;
+        display: none;
+    
+        /* outline: 1px solid red; */
+    }
+    /* --------------section3-------------- */
+    .section3{
+        width: 100%;
+        height: 100vh;
+        background-color: #373633;
+        background: url(./images/46481611111_a1f6c37157_o.jpeg)no-repeat 0 0 fixed;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        background-position-x: 88%; 
+    }
+    .text3{
+        width:100%;
+        color: #ffffff;
+        position: relative;
+        margin: 20% 0 0 0;  
+    }
+    .text3 h3{
+        width:100%;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+    .text3 h5{
+        width:100%;
+        font-size: 1rem;
+        margin: 30px 0;
+        padding: 0 10px;
+        line-height: 1.5rem;
+    }
+    .text3 button{
+        width: 10vw;
+        height: 5vh;
+        /* min-width: 150px; */
+        min-height: 45px;
+        border-radius: 50px;
+        background-color:#FFCC99;
+        color: rgb(0, 0, 0);
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin:3% 2%;
+        display: none;
+    }
+    .text3 .gososha{
+        position: relative;
+        top: -8.7vh;
+        left: 16vw;
+        display: none;
+    }
+    .gososhaarrow{
+        width: 2.2rem;
+        height: 2.2rem;
+        position: relative;
+        top: -14.2vh;
+        left: 30vw;
+        display: none;
+    }
+    .dot2 ul{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        min-width: 132px;
+        min-height: 16px;
+        margin: -7% 1%;
+    }
+    .dot2 li{
+        width: .55rem;
+        position: relative;
+        top: -10vh;
+        left: 30vw;
+        margin: 0 2.6%;
+        /* outline: 1px solid red; */
+    }
+    .dot2 .red1{
+        width: 1.2rem;
+        margin: -.2% .4%;
+    
+    }
+    .text3 .welfare{
+        width: 100%;
+        font-size: 2.8rem;
+        font-weight: 800;
+        font-family: sans-serif;
+        color: white;
+        position: relative;
+        margin: 50% 0;
+        padding: 0 21%;
+    }
+    .arrowleft2{
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        top: -27vh;
+        left:10vw;
+        
+    }
+    .arrowright2{
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        top: -31vh;
+        left:80.8vw;
+    
+    }
+    
+    /* --------------section4-------------- */
+    .section4{
+        width: 100%;
+        height: 130vh;
+        background-color: #ffffff;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .title1{
+        width: 80%;
+        min-width: 325px;
+        border-bottom: 1.2px solid #000000;
+        margin: auto;
+        position: relative;
+        top: 8vh;
+        /* outline: 1px solid red; */
+    }
+    .title1 h2{
+        font-size: 1.8rem;
+        font-weight: 400;
+        position: relative;
+        top: 3.6vh;
+    }
+    .title1 h6{
+        font-size: 1rem;
+        position: relative;
+        top: 1vh;
+        left: 65vw;
+    }
+    .title1 .gotofind{
+        width: 2.1vw;
+        height: 2.1vh;
+        position: relative;
+        top: -1.3vh;
+        left: 83.5vw;
+    }
+    .title1 .block{
+        width: 24vw;
+        height: 1vh;
+        background-color: #000000;
+        position: relative;
+        top: .1vh;
+        left: 63vw;
+    }
+    .card-buy{
+        width: 80%;
+        height: auto;
+        position: relative;
+        top: 10vh;
+        display: inline-grid;
+        grid-template-columns:[column-1]50% [column-2]1fr [column-3];
+        grid-template-rows:[row-1]50% [row-2]1fr [row-3]; 
+        width: 100%;
+        gap: 0% 0%;
+        overflow: hidden;
+    }
+    .box2{
+        width:100%;
+        width: 85%;
+        margin: 0 auto;
+
+        
+    }
+    .content2{
+        width: 100%;
+        /* height: auto;
+        margin: auto; */
+        position: relative;
+        top: 0vh;
+        /* outline: 1px solid red; */
+    }
+    .mask img{
+        width: 100%;
+        /* height: auto; */
+
+    }
+    .mask{
+        -webkit-mask: url("./images/heart-mask.png") no-repeat center center;
+        mask: url("./images/heart-mask.png") no-repeat center center;
+        -webkit-mask-size: 90%;
+        mask-size: 90%;
+    }
+    .collectheart{
+        width: 7vw;
+        height: auto;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+    .text4{
+        width: 100%;
+
+    }
+    .text4 h3{
+        font-size: 1.1rem;
+        font-weight: 900;
+        margin: 10px 0;
+
+    }
+    .text4 h5{
+        font-size: 1rem;
+        margin: 10px 0;
+        line-height: 1.3rem;
+   
+    }
+    .text4 h6{
+        font-size: 1rem;
+        margin: 10px 0;
+
+    }
+    .price{
+        width: 100%;
+        margin:5vh auto;
+   
+    }
+    .price h4{
+        font-size: 1.4rem;
+        font-weight: 600;
+ 
+    }
+    .joinbuy{
+        display: none;
+    }
+    .buyit{
+        display: block;
+        width:2.5rem;
+        height:2.5rem;
+        font-size: 1.2rem;
+        border-radius: 50%;
+        background-color: #000000;
+        color: #ffffff;
+        position: absolute;
+        bottom: -6px;
+        right: 5px;
+
+    }
+    /* --------------section5-------------- */
+    .section5{
+        width: 100%;
+        height: 100vh;
+        background-color: #373633;
+        background: url(./images/46430378362_e1d79ebdc1_o.jpeg)no-repeat 0 0 fixed;
+        background-size: cover;
+        overflow: hidden;
+        background-position-x: 55%;
+
+
+    }
+    .text5{
+        width:100%;
+        margin:40% 0;
+        color: #000000;
+    }
+    .text5 h3{
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin:20px 0;
+        padding: 0 20px;
+        line-height: 2.4rem;
+    }
+    .text5 h5{
+        font-size: .9rem;
+        margin:20px 0;
+        padding: 0 20px;
+        line-height: 1.4rem;
+    }
+    .text5 button{
+        width: 30vw;
+        height: 5vh;
+        border-radius: 50px;
+        background-color:#000000;
+        color: rgb(255, 255, 255);
+        margin:0 20px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .text5 .gotoknow{
+        position: relative;
+        top: -6.3vh;
+        left: 35vw;
+    }
+    .text5 .gotoknowarrow{
+        position: relative;
+        top: -11.5vh;
+        left: 57vw;
+    }
+    .gotoknowarrow{
+        width: 1.5rem;
+        height: 1.5rem;
+        position: relative;
+        top: -11.5vh;
+        left: 19.6vw;
+    }
+    .text5 .about{
+        font-size: 4.2rem;
+        font-weight: 800;
+        font-family: sans-serif;
+        color: white;
+        margin:8vh 0vw;
+        position: relative;
+        top: 10vh;
+        left: 15vw;
+    }
+    .arrowleft3{
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        top: -13vh;
+        left: 9vw;
+        
+        /* outline: 1px solid red; */
+    }
+    .arrowright3{
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        top: -17vh;
+        left: 85vw;
+    
+        /* outline: 1px solid red; */
+    }
+    
+    /* --------------section6-------------- */
+    .section6{
+        width: 100%;
+        height: 250vh;
+        min-width:375px;
+        min-height: 1400px;
+        background-color: #ffffff;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        /* top: -51.5vh; */
+        /* outline: 1px solid red; */
+    }
+    .pet-shooting{
+        width: 80%;
+        height: auto;
+        min-width: 350px;
+        position: relative;
+        top: 14vh;
+        /* left: auto; */
+        margin: auto;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: stretch; */
+        /* align-content: stretch; */
+        overflow: hidden;
+        /* outline: 1px solid red;  */
+    }
+    .box3{
+        width:16vw;
+        height:26vh;
+        min-width: 324px;
+        min-height: 200px;
+        overflow: hidden;
+        /* margin: .2vw; */
+        justify-content: space-between;
+        border: 1px solid rgb(0, 0, 0);
+        margin: 10px auto;   
+    }
+    .content3{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        position: relative;
+        top: -5.5vh;
+    }
+    .text6{
+        width: 80%;
+        min-width: 300px;
+        margin:15vh auto;
+        position: relative;
+        top: -4vh;
+        left: .5vw;
+        line-height: 2rem;
+
+    }
+    .text6 h4{
+        font-size: 1.6rem;
+    }
+    .text6 p{
+        font-size: 1rem;
+        min-width: 300px;
+        margin: 2% 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+    
+        /* display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical; */
+    }
+    .call{
+        width: 80%;
+        margin:10vh auto;
+        position: relative;
+        top: -13vh;
+        left: -5vw;
+
+        /* outline: 1px solid red;  */
+        
+    }
+    .call h5{
+        width:20vw;
+        min-width: 145px;
+        font-size: 1.1rem;
+        /* font-weight: 600; */
+        margin: .8vh 0;
+        /* text-decoration: underline; */
+        border-bottom:1px solid #000000;
+        padding-bottom: .3rem;
+
+        /* outline: 1px solid red; */
+    }
+    .call img{
+        width:9vw;
+        height: 9vh;
+        position: relative;
+        top: -7.5vh;
+        left: 40vw;
+    }
+    .titlearea2{
+        position: relative;
+        top:25vh;
+    }
+    /* ---------- */
+    .wave-shooting{
+        width: 80%;
+        height: auto;
+        min-width: 375px;
+        position: relative;
+        top: 32vh;
+        /* left: auto; */
+        margin: auto;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: stretch; */
+        /* align-content: stretch; */
+        overflow: hidden;
+        /* outline: 1px solid red;  */
+    }
+    .box4{
+        width:25vw;
+        height:30vh;
+        min-width: 325px;
+        min-height: 300px;
+        overflow: hidden;
+        /* margin: .2vw; */
+        justify-content: space-between;
+        margin:-10px auto;
+    }
+    .content4{
+        width: 100%;
+        height: auto;
+        min-width: 325px;
+        min-height: 186px;
+        margin: auto;
+        position: relative;
+        top: -2vh;
+    }
+    .pic2{
+        width:100%;
+        height:25vh;
+        min-width: 324px;
+        min-height: 125px;
+        overflow: hidden;
+        /* outline: 1px solid red; */
+    }
+    .pic2 img{
+        width: 100%;
+        height: auto;
+        object-position: 0 -15vh;
+    }
+    .appointment{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 3vh;
+        min-width: 178px;
+        min-height: 60px;
+    }
+    .appointment span{
+        font-size: 1.2rem;
+        color: grey;
+        min-width: 40px;
+        min-height: 12px;
+    }
+    .appointment h6{
+        width: 33vw;
+        font-size: .7rem;
+        position: relative;
+        top: -2.6vh;
+        left: 24vw;
+        border-bottom:1px solid #000000;
+        padding-bottom: .1rem;
+        min-width: 120px;
+        min-height: 12px;
+    }
+    .appointment h5{
+        font-size: 1.5rem;
+        position: relative;
+        top: -.5vh;
+        min-width: 178px;
+        min-height: 18px;
+    }
+    .pic2 .imgbox4{
+        object-position:0 -30vh;
+    }
+    
+    
+    /* --------------footer------------- */
+    footer{
+        width: 100%;
+        height:100vh;
+        background-color: #000000;
+        position: relative;
+        bottom: 0;
+        overflow: hidden; 
+        margin: auto; 
+        min-width: 375px;
+        min-height: 672px;
+    }
+    .content{
+        position: relative;
+        top: 8vh;
+        margin: auto; 
+        width: 90%;
+        /* outline: 1px solid red; */
+    }
+    .buttonarea{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        /* left: 10vw; */
+        /* outline: 1px solid red; */
+    }
+    .color-button1{
+        background-color: #ebc48f;
+        border-radius: 50px;
+        font-size: 1.2rem;
+        width: 42vw;
+        height: 7vh;
+        margin: 1vh auto;  
+    } 
+    .content ul a{
+        width: 50vw;
+        height: auto;
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .content li a{
+        width: 30vw;
+        height: auto;
+        font-size: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .linkall{
+        width:90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        position: relative;
+        top:0vh;
+        left: 0vw;
+    }
+    .linksitemap{
+        width:100%;
+        height: auto;
+        /* outline: 1px solid red; */
+        position: relative;
+        /* top: -4.5vh; */
+        /* left: 20vw; */
+        text-align: center;
+        line-height: 2;
+        margin: 0 auto;
+    }
+    .linkarea li a{
+        width:100%;
+        height: auto;
+    }
+    .linkarea4{
+        position: relative;
+        left: -4.5vw;
+    }
+    
+}
